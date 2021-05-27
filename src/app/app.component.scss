@@ -1,0 +1,16 @@
+nb-layout-column{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+    nb-layout-column{
+        display: flex;
+        justify-content: center;
+        flex-shrink: 2;
+    }
+
+    app-board{
+        height: 20px;
+    }
+}
